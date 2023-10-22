@@ -4173,7 +4173,9 @@ color:grey;
   transition: transform 0.3s;
 }
 
-
+#ii img{
+  width:20% !important;
+}
 
 .top-header-content a:hover span::after {
   transform: scaleX(1);
@@ -4184,15 +4186,14 @@ color:grey;
   background-color:black;
 } 
 #ii img{
-  width:80% !important;
+  width:100% !important;
 }
+
 .classy-menu{
   background-color:transparent !important;
 }}
 
-#ii img{
-  width:15%;
-}
+
 
 
 .swal2-confirm {

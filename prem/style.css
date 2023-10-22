@@ -74,7 +74,7 @@ input[type=radio] + label {
   margin: 0 0;
   padding: 50px;
   transition: all 200ms;
-  color: #111;
+  color: #5f4baf;
   border: 2px solid transparent;
 }
 
@@ -90,7 +90,7 @@ input[type=radio]:not(:checked) + label:hover {
 
 input[type=radio]:checked + label {
   color: whitesmoke;
-  background: #111;
+  background: #5f4baf;
 }
 
 .left-radius {
@@ -146,7 +146,7 @@ input[type=radio]:checked + label {
 #shape {
   width: 160px;
   height: 285px;
-  fill: #111;
+  fill: #5f4baf;
 }
 
 #b2 {
@@ -156,7 +156,7 @@ input[type=radio]:checked + label {
 }
 
 #b1 {
-  color: #111;
+  color: #5f4baf;
 }
 
 #b1,
@@ -179,7 +179,7 @@ input[type=radio]:checked + label {
   color: whitesmoke;
   border: none;
   border-radius: 6px;
-  background: #111;
+  background: #5f4baf;
   transition: all 0.25s ease-in-out 0s;
   box-shadow: 0px 5px 10px -2px rgba(17, 17, 17, 0.8);
 }
@@ -203,7 +203,7 @@ input[type=radio]:checked + label {
   padding: 10px;
   cursor: pointer;
   text-align: center;
-  color: #111;
+  color: #5f4baf;
   border-radius: 100%;
   background: whitesmoke;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);

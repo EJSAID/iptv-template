@@ -52,7 +52,7 @@ function sendEmail() {
     message: document.getElementById("message").value
   };
 
-  emailjs.send('service_pm71aap', 'template_y673gxj', templateParams)
+  emailjs.send('service_ihl81si', 'template_xyzmj58', templateParams)
     .then(resp => {
       document.getElementById("name").value = "";
       document.getElementById("email").value = "";
