@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+ <meta name="description" content="IPTV Premium Smarters - The best IPTV provider with over 12,000 channels, 10,000+ VOD, and series. Subscribe today for only $9/month!">
+
+    <meta
+      name="keywords"
+      content="tivimate, firestick, iptv smarters firestick, buy IPTV, cheap price iptv, good quality iptv, IPTV provider, best IPTV, IPTV Smarters, channels List, VOD, IPTV subscription, German IPTV, UK IPTV, Sky Sports, Bein Sports, best movies, SuperSport, free IPTV, IPTV trial, IPTV for Android, IPTV for iOS, Sky Bundesliga, Sky Italy, Sky UK, BT Sports, Albanian IPTV, USA IPTV, Canada IPTV, La Liga IPTV, Netherlands IPTV"
+    />
+  <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="wrapper">
+  <div class="phone">
+    <div class="title">
+      <h1 id="b1">
+        PREMIUM <br/> Plan
+      </h1>
+
+      <h1 id="b2">
+        PREMIUM <br/> Plan
+      </h1>
+
+      <svg id="shape">
+        <circle cx="25" cy="150" r="130"  />
+      </svg>
+    </div>
+  
+    <div id="selector">
+    
+      <input checked type="radio" name="selection" id="radio-1" data-url="https://woocomerce.iptvspotlight.com/index.php/product/6-month-premium/">
+      <label class="left-radius" for="radio-1">
+        <span class="radio__interval">6 Month</span>
+        <span class="radio__price">70.00 $</span>
+        <small class="radio__price__info">3 connection</small>
+      </label>
+       
+      
+    <input type="radio" name="selection" id="radio-2" data-url="https://woocomerce.iptvspotlight.com/index.php/product/12-month-premium/"> <!--
+    -->
+   
+      <label class="right-radius" for="radio-2">
+      <span class="radio__interval">12 Months</span>
+      <span class="radio__price">90.00 $</span>
+      <small class="radio__price__info">3 connection</small>
+      </label>
+   
+    </div>
+    
+    <div class="check-out"> CHECK OUT </div>
+  </div>
+</div>
+
+<script>
+  const selector = document.getElementById('selector');
+const checkoutButton = document.querySelector('.check-out');
+
+checkoutButton.addEventListener('click', function() {
+  const selectedInput = selector.querySelector('input[name="selection"]:checked');
+  const url = selectedInput.dataset.url;
+  window.open(url, '_blank');
+});
+</script>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://code.jquery.com/color/jquery.color-2.1.2.min.js'></script>
+</body>
+</html>
